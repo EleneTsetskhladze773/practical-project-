@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proxy-L | Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="inner-page">
+    <nav class="navbar">
+        <a href="index.html" class="logo">Proxy Life</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+          <li><a href="profile.html" class="active">Profile</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="lookbook.html">Lookbook</a></li>
+            <li><a href="about.html">About us</a></li>
+        </ul>
+    </nav>
+
+    <main class="page-container">
+        <div class="account-wrapper">
+            <h1>Your Account | თქვენი აქაუნთი</h1>
+            
+            
+            <form class="account-form" id="login-form">
+                <input type="text" placeholder="Your Name" class="form-input" id="name-input" required>
+                <input type="email" placeholder="Your Email" class="form-input" id="email-input" required>
+               
+                <input type="password" placeholder="Your Password" class="form-input" id="password-input" required>
+                
+                <button type="submit" class="form-btn primary">Log in | Sign up</button>
+            </form>
+
+          
+                     
+                        <div class="logged-in-view" id="logged-in-view" style="display: none;">
+                <h2 id="welcome-message" style="color: #82c0eb;">Welcome! </h2>
+                <p style="color: rgba(255,255,255,0.7); margin-bottom: 2rem;">You are successfully logged in.</p>
+                <button class="form-btn secondary" id="logout-btn">Log Out</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

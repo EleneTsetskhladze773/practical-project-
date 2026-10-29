@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>proxy-L | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css" />
+</head>
+<body class="home-page"> 
+
+   
+    <nav class="navbar">
+        <div class="logo">proxy Life</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="profile.html">profile</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="lookbook.html">Lookbook</a></li>
+            <li><a href="about.html">About us</a></li>
+        </ul>
+    </nav>
+
+    
+    <main class="hero-section">
+        
+     
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                
+               
+                <div class="swiper-slide">
+                    <img src="./images/aespa.jpg" alt="Slide 1" />
+                    
+                  
+                    <div class="slide-overlay"></div> 
+                    <div class="hero-content">
+                        <h1>The future, in your hands<br> მომავალი, შენს ხელებში</h1>
+                        <p>ჩანთები და აქსესუარები</p>
+                        
+                        <form id="hero-search-form" class="hero-search-form">
+                            <input type="text" id="hero-search-input" placeholder="მოძებნეთ კოლექცია..." class="hero-search-input" required="">
+                            <button type="submit" class="hero-search-btn">🔍</button>
+                        </form>
+                    </div>
+                </div>
+
+                   
+                <div class="swiper-slide">
+                    <img src="./lookbook/new.jpg" alt="Slide 2" />
+                    
+                    
+                    <div class="slide-overlay"></div> 
+                    
+                   
+                    <div class="slide-text">
+                        <h2>what is cyber aesthetic?</h2>
+                        <p>
+The cyber aesthetic is a visual and cultural style that blends futuristic technology, digital motifs, and retrofuturistic elements to create a sleek, high-tech, and often nostalgic look.
+The cyber aesthetic draws inspiration from early 2000s futurism, Y2K design, sci-fi media, and digital culture, emphasizing a blend of technology, neon or metallic color palettes, and digital motifs 
+. It often incorporates elements from anime, video games, and internet culture, creating a style that feels both futuristic and nostalgic <br> The cyber aesthetic is widely used in digital art, graphic design, wallpapers, and social media content. Platforms like Pinterest, Behance, and Etsy host collections of cyber aesthetic visuals, including wallpapers, illustrations, and fashion items It also influences music visuals, video editing, and online branding, often creating immersive, futuristic experiences.
+</p>
+                    </div>
+                </div>
+
+               
+                <div class="swiper-slide">
+                    <img src="./lookbook/new.jpg" alt="Slide 3" />
+                    
+                    <div class="slide-overlay"></div> 
+                    
+                    <div class="slide-text">
+                        <h2>რა არის კიბერესთეტიკა ?</h2>
+                        <p>კიბერ ესთეტიკა წარმოადგენს ვიზუალურ და კულტურულ სტილს, რომელიც აერთიანებს მომავლის სტილის ტექნოლოგიებს  და რეტროფუტურისტულ ელემენტებს, რათა შექმნას დახვეწილი, მაღალტექნოლოგიური და ხშირად ნოსტალგიური შეგრძნება.
+
+კიბერ ესთეტიკა შთაგონებას იღებს 2000-იანი წლების დასაწყისის ფუტურიზმიდან, Y2K დიზაინიდან, სამეცნიერო ფანტასტიკის მედიიდან და ციფრული კულტურიდან,  ხშირად გამოყენებულია ნეონის ან მეტალისფერი ფერების პალიტრა ის მოიცავს ანიმეს, ვიდეო თამაშებისა და ინტერნეტ კულტურის ელემენტებს, რაც ქმნის სტილს, რომელიც ერთდროულად ფუტურისტულიცაა და ნოსტალგიურიც.
+
+კიბერ ესთეტიკა ფართოდ გამოიყენება ციფრულ ხელოვნებაში, გრაფიკულ დიზაინში, ფონებსა და სოციალური მედიის კონტენტში. პლატფორმები, როგორიცაა Pinterest, Behance და Etsy, ატარებენ კიბერ ესთეტიკის ვიზუალების კოლექციებს, მათ შორის ფონებს, ილუსტრაციებსა და  ნივთებს. ის ასევე გავლენას ახდენს მუსიკალურ ვიზუალებზე, ვიდეო მონტაჟსა და ონლაინ ბრენდინგზე.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            
+           
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </main>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+
+   
+    <script>
+        var swiper = new Swiper('.mySwiper', {
+            loop: true, 
+            speed: 300, 
+            
+            
+            keyboard: {
+                enabled: true,
+                onlyInViewport: true,
+            },
+            
+           
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            
+           
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            
+            
+        });
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>

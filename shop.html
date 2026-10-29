@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proxy-L | Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="inner-page">
+   
+    <nav class="navbar">
+        <a href="index.html" class="logo">Proxy Life</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">profile</a></li>
+            <li><a href="shop.html" class="active">Shop</a></li>
+            <li><a href="lookbook.html">Lookbook</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="#" id="open-cart-btn">Cart/🛒 (<span id="cart-count">0</span>)</a></li>
+        </ul>
+    </nav>
+
+    <main class="page-container">
+        <h1>Shop</h1>
+
+        <div class="shop-categories">
+            <a href="#women">Women's bags | ქალის ჩანთები</a>
+            <a href="#men">Men's bags | მამაკაცის ჩანთები</a>
+            <a href="#accessories">Accessories | აქსესუარები</a>
+        </div>
+
+       
+        <section id="women" class="shop-section">
+            <h2>Women's Bags | ქალის ჩანთები</h2>
+           
+            <div class="image-grid">
+                <div class="product-card">
+                    <div class="product-image"><img src="./images/blue.silver.jpg" alt="Silver Chain Bag"></div>
+                    <div class="product-info">
+                        <h3>Silver Chain Bag</h3>
+                        <p class="price">$145.00</p>
+                        <button class="buy-btn" onclick="addToCart('Silver Chain Bag', 145.00, './images/blue.silver.jpg')">Buy Now</button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image"><img src="./images/Grace Ling (1).jpg" alt="Burgundy Clutch"></div>
+                    <div class="product-info">
+                        <h3>Burgundy Clutch</h3>
+                        <p class="price">$95.00</p>
+                        <button class="buy-btn" onclick="addToCart('Burgundy Clutch', 95.00, './images/Grace Ling (1).jpg')">Buy Now</button>
+                    </div>
+                </div>
+               
+                <div class="product-card">
+                    <div class="product-image"><img src="./images/pinkish.bag.jpg" alt="Metallic Bag"></div>
+                    <div class="product-info">
+                        <h3>Metallic Bag</h3>
+                        <p class="price">$120.00</p>
+                        <button class="buy-btn" onclick="addToCart('Metallic Bag', 120.00, './images/pinkish.bag.jpg')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="./gallery/new (2).jpg" alt="Classic Black Bag"></div>
+                    <div class="product-info">
+                        <h3>Classic Black Bag</h3>
+                        <p class="price">$85.00</p>
+                        <button class="buy-btn" onclick="addToCart('Classic Black Bag', 85.00, './gallery/new (2).jpg')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="./gallery/new (3).jpg" alt="Everyday bag"></div>
+                    <div class="product-info">
+                        <h3>Everyday bag</h3>
+                        <p class="price">$110.00</p>
+                        <button class="buy-btn" onclick="addToCart('Everyday bag', 110.00, './gallery/new (3).jpg')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="./gallery/new (6).jpg" alt="Mini Shoulder Bag"></div>
+                    <div class="product-info">
+                        <h3>Mini Shoulder Bag</h3>
+                        <p class="price">$75.00</p>
+                        <button class="buy-btn" onclick="addToCart('Mini Shoulder Bag', 75.00, './gallery/new (6).jpg')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="./gallery/new (5).jpg" alt="Structured Handbag"></div>
+                    <div class="product-info">
+                        <h3>Structured Handbag</h3>
+                        <p class="price">$130.00</p>
+                        <button class="buy-btn" onclick="addToCart('Structured Handbag', 130.00, './gallery/new (5).jpg')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="./gallery/new.jpg" alt="Mini porpule bag"></div>
+                    <div class="product-info">
+                        <h3>Mini porpule bag</h3>
+                        <p class="price">$65.00</p>
+                        <button class="buy-btn" onclick="addToCart('Mini porpule bag', 65.00, './gallery/new.jpg')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="./gallery/Grace Ling.jpg" alt="Black Clutch"></div>
+                    <div class="product-info">
+                        <h3>Black Clutch</h3>
+                        <p class="price">$65.00</p>
+                        <button class="buy-btn" onclick="addToCart('Black Clutch', 65.00, './gallery/Grace Ling.jpg')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="./gallery/women1.jpg" alt="Casual bag"></div>
+                    <div class="product-info">
+                        <h3>Casual bag</h3>
+                        <p class="price">$65.00</p>
+                        <button class="buy-btn" onclick="addToCart('Casual bag', 65.00, './gallery/women1.jpg')">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+        <section id="men" class="shop-section">
+            <h2>Men's Bags | მამაკაცის ჩანთები</h2>
+            
+            <div class="image-grid">
+                <div class="product-card">
+                    <div class="product-image"><img src="./images/manwhite.bag.jpg" alt="White Leather Backpack"></div>
+                    <div class="product-info">
+                        <h3>White</h3>
+                        <p class="price">$150.00</p>
+                        <button class="buy-btn" onclick="addToCart('White', 150.00, './images/manwhite.bag.jpg')">Buy Now</button>
+                    </div>
+                </div>
+               
+                <div class="product-card">
+                    <div class="product-image"><img src="./images/men.bag (2).jpg" alt="Black Messenger Bag"></div>
+                    <div class="product-info">
+                        <h3>Black Messenger Bag</h3>
+                        <p class="price">$105.00</p>
+                        <button class="buy-btn" onclick="addToCart('Black Messenger Bag', 105.00, './images/men.bag (2).jpg')">Buy Now</button>
+                    </div>
+                </div>
+               
+                <div class="product-card">
+                    <div class="product-image"><img src="./images/men.bag (3).jpg" alt="Travel Duffle"></div>
+                    <div class="product-info">
+                        <h3>Travel Duffle</h3>
+                        <p class="price">$180.00</p>
+                        <button class="buy-btn" onclick="addToCart('Travel Duffle', 180.00, './images/men.bag (3).jpg')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="./images/backpack.jpg" alt="Classic Backpack"></div>
+                    <div class="product-info">
+                        <h3>Classic Backpack</h3>
+                        <p class="price">$120.00</p>
+                        <button class="buy-btn" onclick="addToCart('Classic Backpack', 120.00, './images/backpack.jpg')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="./images/men.bag.jpg" alt="Leather Briefcase"></div>
+                    <div class="product-info">
+                        <h3>Leather Briefcase</h3>
+                        <p class="price">$195.00</p>
+                        <button class="buy-btn" onclick="addToCart('Leather Briefcase', 195.00, './images/men.bag.jpg')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="./gallery/mennew.jpg" alt="Weekender Bag"></div>
+                    <div class="product-info">
+                        <h3>Weekender Bag</h3>
+                        <p class="price">$160.00</p>
+                        <button class="buy-btn" onclick="addToCart('Weekender Bag', 160.00, './gallery/mennew.jpg')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="./gallery/mennew1.jpg" alt="Crossbody bag"></div>
+                    <div class="product-info">
+                        <h3>Crossbody bag</h3>
+                        <p class="price">$55.00</p>
+                        <button class="buy-btn" onclick="addToCart('Crossbody bag', 55.00, './gallery/mennew1.jpg')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="./gallery/mennew3.jpg" alt="Black leather backpack"></div>
+                    <div class="product-info">
+                        <h3>Black leather backpack</h3>
+                        <p class="price">$85.00</p>
+                        <button class="buy-btn" onclick="addToCart('Black leather backpack', 85.00, './gallery/mennew3.jpg')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="./gallery/mens bag.jpg" alt="Casual mini bag"></div>
+                    <div class="product-info">
+                        <h3>Casual mini bag</h3>
+                        <p class="price">$65.00</p>
+                        <button class="buy-btn" onclick="addToCart('Casual mini bag', 65.00, './gallery/mens bag.jpg')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="./gallery/mens bag2.jpg" alt="Casual black backpack"></div>
+                    <div class="product-info">
+                        <h3>Casual black backpack</h3>
+                        <p class="price">$65.00</p>
+                        <button class="buy-btn" onclick="addToCart('Casual black backpack', 65.00, './gallery/mens bag2.jpg')">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="accessories" class="shop-section">
+            <h2>Accessories | აქსესუარები</h2>
+           
+            <div class="image-grid">
+                <div class="product-card">
+                    <div class="product-image"><img src="./images/decor (2).jpg" alt="Silver neckless"></div>
+                    <div class="product-info">
+                        <h3>Silver neckless</h3>
+                        <p class="price">$40.00</p>
+                        <button class="buy-btn" onclick="addToCart('Silver neckless', 40.00, './images/decor (2).jpg')">Buy Now</button>
+                    </div>
+                </div>
+               
+                <div class="product-card">
+                    <div class="product-image"><img src="./images/ear.decor.jpg" alt="Ear accessory"></div>
+                    <div class="product-info">
+                        <h3>Ear accessory</h3>
+                        <p class="price">$35.00</p>
+                        <button class="buy-btn" onclick="addToCart('Ear accessory', 35.00, './images/ear.decor.jpg')">Buy Now</button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image"><img src="./images/headphone (2).jpg" alt="Headphones case"></div>
+                    <div class="product-info">
+                        <h3>Headphones case</h3>
+                        <p class="price">$150.00</p>
+                        <button class="buy-btn" onclick="addToCart('Headphones case', 150.00, './images/headphone (2).jpg')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="./images/keychain.jpg" alt="Keychain"></div>
+                    <div class="product-info">
+                        <h3>Keychain</h3>
+                        <p class="price">$20.00</p>
+                        <button class="buy-btn" onclick="addToCart('Keychain', 20.00, './images/keychain.jpg')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="./images/lip.decor.jpg" alt="Lipstick case"></div>
+                    <div class="product-info">
+                        <h3>Lipstick case</h3>
+                        <p class="price">$20.00</p>
+                        <button class="buy-btn" onclick="addToCart('Lipstick case', 20.00, './images/lip.decor.jpg')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="./images/liter.decor.jpg" alt="Lighter case"></div>
+                    <div class="product-info">
+                        <h3>Lighter case</h3>
+                        <p class="price">$20.00</p>
+                        <button class="buy-btn" onclick="addToCart('Lighter case', 20.00, './images/liter.decor.jpg')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="./images/nail.decor.jpg" alt="Silver nails"></div>
+                    <div class="product-info">
+                        <h3>Silver nails</h3>
+                        <p class="price">$20.00</p>
+                        <button class="buy-btn" onclick="addToCart('Silver nails', 20.00, './images/nail.decor.jpg')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="./images/phone.decor.jpg" alt="Phone case"></div>
+                    <div class="product-info">
+                        <h3>Phone case</h3>
+                        <p class="price">$20.00</p>
+                        <button class="buy-btn" onclick="addToCart('Phone case', 20.00, './images/phone.decor.jpg')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="./gallery/download (4).jpg" alt="Metallic hair clip"></div>
+                    <div class="product-info">
+                        <h3>Metallic hair clip</h3>
+                        <p class="price">$65.00</p>
+                        <button class="buy-btn" onclick="addToCart('Metallic hair clip', 65.00, './gallery/download (4).jpg')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="./gallery/download (3).jpg" alt="silver hair clip"></div>
+                    <div class="product-info">
+                        <h3>silver hair clip</h3>
+                        <p class="price">$65.00</p>
+                        <button class="buy-btn" onclick="addToCart('silver hair clip', 65.00, './gallery/download (3).jpg')">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+
+    <div class="cart-overlay" id="cart-overlay"></div>
+    
+    <div class="cart-drawer" id="cart-drawer">
+        <div class="cart-header">
+            <h2>Your Cart</h2>
+            <button id="close-cart-btn" class="close-btn">&times;</button>
+        </div>
+        
+        <div class="cart-items" id="cart-items-container">
+           
+            <p class="empty-cart-msg">Your cart is empty.</p>
+        </div>
+        
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cart-total-price">$0.00</span>
+            </div>
+            <button class="checkout-btn" onclick="alert('Checkout functionality coming soon!')">Checkout</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
